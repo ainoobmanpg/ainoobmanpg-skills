@@ -1,0 +1,47 @@
+# OS / エディタ
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ローカル環境
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ログ / 一時ファイル
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+.cache/
+
+# 依存関係 / ビルド成果物
+node_modules/
+dist/
+build/
+coverage/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Claude / Codexのローカル実行成果物
+.claude/tmp/
+.claude/cache/
+.claude/logs/
+.codex/tmp/
+.codex/cache/
+.codex/logs/
