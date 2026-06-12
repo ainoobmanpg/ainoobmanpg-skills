@@ -1,0 +1,45 @@
+---
+name: github-pr-create
+description: push済みのブランチからGitHub Pull Requestを新規作成するときに使う。
+---
+
+# GitHub Pull Request Create
+
+push済みのbranchからGitHub Pull Requestを新規作成するためのSkillです。GitHub CLI `gh` を主経路にし、認証状態、対象リポジトリ、head branch、base branch、タイトル、本文、draft指定を確認してから作成します。
+
+## 使うべき状況
+
+- すでにpush済みのbranchから新しいPRを作りたい。
+- draft PRを含め、タイトルと本文を指定してPRを登録したい。
+
+## 期待する入力
+
+- 対象リポジトリの `OWNER/REPO` またはローカルリポジトリ。
+- head branch。
+- base branch。
+- PRタイトル。
+- PR本文。
+- 必要なら `draft` 指定。
+
+## 実行手順
+
+1. `gh auth status` でGitHub CLIの認証状態を確認します。
+2. `gh repo view OWNER/REPO` またはローカルの `git remote -v` と `gh repo view` で対象リポジトリを確認します。
+3. `git branch --show-current` や `git branch --list` などでhead branchを確認し、対象branchがすでにpush済みであることを確認します。
+4. base branch、タイトル、本文、必要ならdraft指定が揃っていることを確認し、長文本文では `--body-file` を使う前提で整えます。
+5. `gh pr create --repo OWNER/REPO --base <base> --head <head> --title ... --body ...` または `--body-file` を実行し、必要なら `--draft` を付けます。
+6. 作成後に `gh pr view <created-number-or-url> --repo OWNER/REPO` で結果を確認します。
+
+## 出力形式
+
+- 対象リポジトリと作成したPR番号またはURL。
+- 実行した作成内容。例: head/base branch、タイトル、draft有無。
+- 作成後に確認した現在状態。
+
+## 禁止事項と確認が必要な操作
+
+- このSkillでlocal commit、branch push、merge、close、reopenは行いません。
+- pushされていないbranchからの作成を前提に進めません。
+- 対象repo、head branch、base branch、タイトル、本文が曖昧なまま作成しません。
+- 認証情報、APIキー、個人アクセストークン、認証済みセッションの内容を出力しません。
+- ネットワークアクセスとGitHub認証が必要です。失敗時は認証、権限、対象repo、branch状態のどこが原因かを切り分けます。
