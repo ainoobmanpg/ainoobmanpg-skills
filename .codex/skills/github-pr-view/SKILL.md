@@ -1,11 +1,17 @@
 ---
 name: github-pr-view
-description: GitHub Pull Requestの現在状態を読み取り専用で確認するときに使う。
+description: GitHub Pull Requestの現在状態を読み取り専用で確認するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
 ---
 
 # GitHub Pull Request View
 
 GitHub Pull Requestの本文、状態、review状況、checks、コメントを変更せずに確認するためのSkillです。GitHub CLI `gh` を主経路にし、認証状態と対象リポジトリを確認したうえで、読み取り専用で状況を把握します。
+
+## 共通方針
+
+- GitHub Pull Request確認では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- 読み取った内容の要約、確認結果、次アクション案は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 

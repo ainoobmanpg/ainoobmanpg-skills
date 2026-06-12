@@ -1,11 +1,17 @@
 ---
 name: github-issue-template-update
-description: 既存のGitHub IssueテンプレートやIssue Formsを更新するときに使う。
+description: 既存のGitHub IssueテンプレートやIssue Formsを更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、テンプレート文面は指定がない限り日本語で更新する。
 ---
 
 # GitHub Issue Template Update
 
 `.github/ISSUE_TEMPLATE/` 配下の既存GitHub IssueテンプレートやIssue Formsを更新するためのSkillです。対象ファイルと既存構造を確認し、無関係な変更を混ぜずに更新します。ローカル編集が中心ですが、必要に応じて GitHub CLI `gh` で対象repoや既存運用を確認します。
+
+## 共通方針
+
+- GitHub Issueテンプレート更新では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- テンプレート名、説明、フォーム項目、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 

@@ -1,11 +1,17 @@
 ---
 name: github-pr-review
-description: GitHub Pull Requestへreview eventを送信するときに使う。
+description: GitHub Pull Requestへreview eventを送信するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、review本文は指定がない限り日本語で書く。
 ---
 
 # GitHub Pull Request Review
 
 既存GitHub Pull Requestへreviewを送信するためのSkillです。GitHub CLI `gh` を主経路にし、対象PRの現在状態と意図するreview eventを確認してから、`COMMENT`、`APPROVE`、`REQUEST_CHANGES` のいずれかを送信します。
+
+## 共通方針
+
+- GitHub Pull Request review送信では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- review本文、補足コメント、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 

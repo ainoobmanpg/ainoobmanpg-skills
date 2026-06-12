@@ -1,11 +1,17 @@
 ---
 name: github-issue-reopen
-description: GitHub IssueをReopenするときに使う。
+description: GitHub IssueをReopenするときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
 ---
 
 # GitHub Issue Reopen
 
 ClosedになっているGitHub IssueをReopenするためのSkillです。GitHub CLI `gh` を主経路にし、現在状態を確認してからReopenだけを実行します。
+
+## 共通方針
+
+- GitHub Issue Reopenでは、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- Reopen理由、確認結果、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 
@@ -39,4 +45,3 @@ ClosedになっているGitHub IssueをReopenするためのSkillです。GitHub
 - 対象Issueが確定していない状態でReopenしません。
 - 認証情報、APIキー、個人アクセストークン、認証済みセッションの内容を出力しません。
 - ネットワークアクセスとGitHub認証が必要です。失敗時は認証、権限、対象repo、対象Issueを切り分けて報告します。
-

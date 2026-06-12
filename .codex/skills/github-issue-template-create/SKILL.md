@@ -1,11 +1,17 @@
 ---
 name: github-issue-template-create
-description: GitHub IssueテンプレートやIssue Formsを新規作成するときに使う。
+description: GitHub IssueテンプレートやIssue Formsを新規作成するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、テンプレート文面は指定がない限り日本語で作成する。
 ---
 
 # GitHub Issue Template Create
 
 `.github/ISSUE_TEMPLATE/` 配下にGitHub IssueテンプレートやIssue Formsを新規作成するためのSkillです。対象リポジトリの既存テンプレート構成を確認してから、用途に合うファイルを追加します。ローカル編集が中心ですが、必要に応じて GitHub CLI `gh` で対象repoや既存運用を確認します。
+
+## 共通方針
+
+- GitHub Issueテンプレート作成では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- テンプレート名、説明、フォーム項目、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 

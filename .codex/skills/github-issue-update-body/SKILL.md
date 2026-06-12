@@ -1,11 +1,17 @@
 ---
 name: github-issue-update-body
-description: GitHub Issueの本文だけを更新するときに使う。
+description: GitHub Issueの本文だけを更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、本文は指定がない限り日本語で更新する。
 ---
 
 # GitHub Issue Update Body
 
 既存GitHub Issueの本文だけを安全に更新するためのSkillです。GitHub CLI `gh` を主経路にし、現在本文を読み取ってから、無関係な変更を混ぜずに反映します。
+
+## 共通方針
+
+- GitHub Issue本文更新では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- 更新本文、コメント、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 
@@ -39,4 +45,3 @@ description: GitHub Issueの本文だけを更新するときに使う。
 - 既存Issue本文の無関係な整形、言い換え、項目削除を勝手に行いません。
 - 認証情報、APIキー、個人アクセストークン、認証済みセッションの内容を出力しません。
 - ネットワークアクセスとGitHub認証が必要です。失敗時は認証、権限、対象repo、対象Issueを切り分けて報告します。
-

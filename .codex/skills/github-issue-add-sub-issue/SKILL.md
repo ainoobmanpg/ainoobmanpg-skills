@@ -1,11 +1,17 @@
 ---
 name: github-issue-add-sub-issue
-description: GitHub Issueにsub-issueを追加するときに使う。
+description: GitHub Issueにsub-issueを追加するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
 ---
 
 # GitHub Issue Add Sub-Issue
 
 GitHub Issueにsub-issueを追加するためのSkillです。GitHub CLI `gh` を主経路にしますが、現行の標準 `gh issue` にsub-issue追加の直結フラグがない場合があります。その場合は `gh api graphql` の `addSubIssue` mutation を使い、現在状態とCLI仕様を確認したうえでsub-issue追加を実行します。
+
+## 共通方針
+
+- GitHub Issue親子関係操作では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- 確認結果、変更理由、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 

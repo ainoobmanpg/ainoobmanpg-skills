@@ -1,11 +1,17 @@
 ---
 name: github-pr-create
-description: push済みのブランチからGitHub Pull Requestを新規作成するときに使う。
+description: push済みのブランチからGitHub Pull Requestを新規作成するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、PRタイトルと本文は指定がない限り日本語で作成する。
 ---
 
 # GitHub Pull Request Create
 
 push済みのbranchからGitHub Pull Requestを新規作成するためのSkillです。GitHub CLI `gh` を主経路にし、認証状態、対象リポジトリ、head branch、base branch、タイトル、本文、draft指定を確認してから作成します。
+
+## 共通方針
+
+- GitHub Pull Request作成では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- PRタイトル、本文、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 

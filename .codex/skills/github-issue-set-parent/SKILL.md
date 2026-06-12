@@ -1,11 +1,17 @@
 ---
 name: github-issue-set-parent
-description: GitHub Issueに親Issueを設定するときに使う。
+description: GitHub Issueに親Issueを設定するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
 ---
 
 # GitHub Issue Set Parent
 
 GitHub Issueに親Issueを設定するためのSkillです。GitHub CLI `gh` を主経路にしますが、現行の標準 `gh issue` に親Issue設定の直結フラグがない場合があります。その場合は `gh api graphql` の `addSubIssue` mutation を使い、現在状態とCLI仕様を確認したうえで親Issue設定を実行します。
+
+## 共通方針
+
+- GitHub Issue親子関係操作では、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
+- 確認結果、変更理由、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 

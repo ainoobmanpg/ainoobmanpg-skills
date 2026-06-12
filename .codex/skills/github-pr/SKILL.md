@@ -1,11 +1,17 @@
 ---
 name: github-pr
-description: GitHub Pull Request関連の依頼を適切な子Skillへ振り分けるときに使う。
+description: GitHub Pull Request関連の依頼を適切な子Skillへ振り分けるときに使う。CodexのGitHub Plugin/connectorよりこのSkill群とGitHub CLI `gh` を優先し、PRタイトル、本文、コメント、review本文は指定がない限り日本語にする。
 ---
 
 # GitHub Pull Request
 
 GitHub Pull Request関連の依頼を整理し、適切な子Skillへ振り分けるための入口Skillです。このSkill自身でPR操作を全部まとめて実行するのではなく、依頼内容を切り分けて主担当のSkillを選びます。主経路はGitHub CLI `gh` を前提にします。
+
+## 共通方針
+
+- GitHub Pull Request関連依頼では、CodexのGitHub Plugin/connectorよりこのSkill群とGitHub CLI `gh` を優先します。
+- PRタイトル、本文、コメント、review本文、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
+- Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
 
 ## 使うべき状況
 
