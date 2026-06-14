@@ -12,6 +12,7 @@ Close済みのGitHub Pull RequestをReopenするためのSkillです。GitHub CL
 - GitHub Pull Request Reopenでは、CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先します。
 - Reopen理由、確認結果、報告文は、ユーザーまたは対象repoの規約で別言語指定がない限り日本語で書きます。
 - Plugin/connectorは、`gh` で不足する読み取りや構造化情報取得の補助に留めます。
+- `gh auth status` がCodexサンドボックス内で失敗する場合は、即座に認証切れと判断せず `gh-execution-context` で実行環境を切り分けます。
 
 ## 使うべき状況
 
