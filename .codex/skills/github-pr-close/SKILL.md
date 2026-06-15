@@ -1,6 +1,6 @@
 ---
 name: github-pr-close
-description: GitHub Pull RequestをmergeせずにCloseするときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、Close理由と確認結果は指定がない限り日本語で報告する。
+description: "GitHub Pull RequestをmergeせずにCloseするときに使う。PRを閉じて、取り下げて、mergeしないでcloseして、という依頼で使い、mergeは別Skillへ切り分け、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Close

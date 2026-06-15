@@ -1,6 +1,6 @@
 ---
 name: github-issue-remove-parent
-description: GitHub Issueから親Issueを解除するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueからparent issue・親Issueの紐付けを解除するときに使う。親を外して、parentを削除して、階層を解除して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Remove Parent

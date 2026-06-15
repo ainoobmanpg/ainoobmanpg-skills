@@ -1,6 +1,6 @@
 ---
 name: worker-review-deliverable
-description: AI Workerが返した差分、検証結果、生成物をコミット前の成果物時点でレビューするときに使う。
+description: "AI Workerが返した成果物、差分、検証結果、生成物をコミット前にレビューするときに使う。deliverableレビュー、納品物確認、実装担当者の報告を検査する依頼で使う。"
 ---
 
 # Worker Review Deliverable

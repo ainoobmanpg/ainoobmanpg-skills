@@ -1,6 +1,6 @@
 ---
 name: ai-task-executor
-description: Codexなどが作成したAI実装担当者向け作業票をClaude Codeが読み、指定範囲内で実装・検証・報告するときに使う。
+description: "Claude CodeがCodexなどから渡されたAI実装担当者向け作業票を実行するときに使う。作業票を読み、指定されたcwd・許可ファイル・検証コマンドの範囲内で実装、検証、報告する依頼で使う。"
 ---
 
 # AI Task Executor

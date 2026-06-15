@@ -1,6 +1,6 @@
 ---
 name: ai-task-delegator
-description: DeepSeekなどのAI実装担当者へ渡す自己完結した作業票を作り、Codexが差分をレビューする場面で使う。
+description: "CodexがPMやレビュアーとして、DeepSeekなどのAI実装担当者へ渡す自己完結した作業票を作るときに使う。cwd、許可ファイル、検証、停止条件、レビュー観点を明確にする依頼で使う。"
 ---
 
 # AI Task Delegator

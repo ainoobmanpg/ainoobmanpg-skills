@@ -1,6 +1,6 @@
 ---
 name: github-issue-set-labels
-description: GitHub Issueのラベルを設定または更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueのlabel・ラベルを設定、追加、削除、更新するときに使う。ラベルを付けて、外して、分類して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Set Labels

@@ -1,6 +1,6 @@
 ---
 name: github-issue-update-body
-description: GitHub Issueの本文だけを更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、本文は指定がない限り日本語で更新する。
+description: "GitHub Issueの本文だけを更新・差し替えするときに使う。Issue本文を直して、bodyを更新して、チェックリストや説明を書き換えて、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Update Body

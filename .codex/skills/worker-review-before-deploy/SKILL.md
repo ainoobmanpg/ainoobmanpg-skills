@@ -1,6 +1,6 @@
 ---
 name: worker-review-before-deploy
-description: AI Worker由来の変更をデプロイまたは本番反映する直前にレビューするときに使う。
+description: "AI Worker由来の変更をデプロイ、本番反映、restart、releaseする直前に厳しくレビューするときに使う。deploy前レビュー、リリース前確認、No-Go判定の依頼で使う。"
 ---
 
 # Worker Review Before Deploy

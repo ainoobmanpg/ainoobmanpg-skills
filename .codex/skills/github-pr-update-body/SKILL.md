@@ -1,6 +1,6 @@
 ---
 name: github-pr-update-body
-description: GitHub Pull Requestの本文だけを更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、PR本文と報告文は指定がない限り日本語にする。
+description: "GitHub Pull Requestの本文だけを更新・差し替えするときに使う。PR本文を直して、bodyを更新して、説明やチェックリストを書き換えて、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Update Body

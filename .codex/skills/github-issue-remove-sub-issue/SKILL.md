@@ -1,6 +1,6 @@
 ---
 name: github-issue-remove-sub-issue
-description: GitHub Issueからsub-issueを外すときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueからsub-issue・子Issueの紐付けを外すときに使う。sub-issueを解除して、子Issueを外して、親配下から抜いて、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Remove Sub-Issue

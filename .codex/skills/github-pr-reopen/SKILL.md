@@ -1,6 +1,6 @@
 ---
 name: github-pr-reopen
-description: Close済みのGitHub Pull RequestをReopenするときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "Close済みのGitHub Pull RequestをReopen・再オープンするときに使う。PRを開き直して、reopenして、取り下げを戻して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Reopen

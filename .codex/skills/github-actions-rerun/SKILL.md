@@ -1,6 +1,6 @@
 ---
 name: github-actions-rerun
-description: GitHub Actionsのworkflow runまたはjobをrerunするときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、対象run/jobとrerun範囲を日本語で明示確認する。
+description: "GitHub Actionsのworkflow runやjobをrerun・再実行するときに使う。CIを再実行して、failed jobだけrerun、workflow runをやり直す、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Actions Rerun

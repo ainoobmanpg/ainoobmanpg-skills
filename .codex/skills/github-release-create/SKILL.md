@@ -1,6 +1,6 @@
 ---
 name: github-release-create
-description: GitHub Releaseを新規作成するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、Releaseタイトル、本文、報告文は指定がない限り日本語にする。
+description: "GitHub Releaseを新規作成するときに使う。リリースを作って、tagからRelease作成、release notesを書く、という依頼で使い、指定がない限り日本語、`gh` を優先する。"
 ---
 
 # GitHub Release Create

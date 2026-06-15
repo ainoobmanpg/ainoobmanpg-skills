@@ -1,6 +1,6 @@
 ---
 name: github-issue-comment
-description: GitHub Issueにコメントを追加するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、コメント本文は指定がない限り日本語で書く。
+description: "GitHub Issueに通常コメントを追加するときに使う。Issueへコメントして、進捗を書いて、確認結果を投稿して、という依頼で使い、本文は指定がない限り日本語、`gh` を優先する。"
 ---
 
 # GitHub Issue Comment

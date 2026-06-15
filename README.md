@@ -29,7 +29,7 @@ CLAUDE.md           Claude Code向けの作業規約
 ```markdown
 ---
 name: skill-name
-description: このSkillを使う状況を一文で説明する。
+description: "このSkillが必要になる依頼、対象、ユーザーが言いそうな語彙を一文で説明する。"
 ---
 
 # Skill Name
@@ -41,5 +41,8 @@ description: このSkillを使う状況を一文で説明する。
 
 - Skill名はASCIIのkebab-caseにする。
 - 説明文と本文は日本語で書く。
+- `description` はSkill本文が読まれる前の主要な発火条件として扱う。
+- `description` には概要だけでなく、いつ使うか、対象リソース、ユーザーが使いそうな言い回し、近いSkillとの切り分けを短く含める。
+- `description` にコロン、バッククォート、記号、箇条書き風の表現を含める場合は、YAMLの型事故を避けるため引用符で囲む。
 - サンプルやテンプレートに秘密情報を含めない。
 - 外部API、ネットワーク、削除、Git操作、認証が必要な場合は本文に明記する。

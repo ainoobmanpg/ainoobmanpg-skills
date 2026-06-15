@@ -1,6 +1,6 @@
 ---
 name: github-label-create-update
-description: GitHub Labelを作成または更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、label名、色、説明、作成更新結果を日本語で確認する。
+description: "GitHub Labelを作成または更新するときに使う。ラベルを作って、色や説明を変えて、labelを整備して、という依頼で使い、Issue/PRへの付与とは切り分け、`gh` を優先する。"
 ---
 
 # GitHub Label Create Update

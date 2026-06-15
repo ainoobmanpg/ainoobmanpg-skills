@@ -1,6 +1,6 @@
 ---
 name: github-issue-close
-description: GitHub IssueをCloseするときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub IssueをClose・完了扱いにするときに使う。Issueを閉じて、closeして、理由付きで完了にして、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Close

@@ -1,6 +1,6 @@
 ---
 name: codex-skill-sync-global
-description: repo内のCodex Skillをグローバルな `~/.codex/skills` に同期するときに使う。同期元、同期先、差分確認、外部ディレクトリへの書き込み確認を日本語で明示する。
+description: "repo内のCodex Skillをグローバルな `~/.codex/skills` へ同期・更新・照合するときに使う。グローバルに置く、インストールする、同期して、cmpで確認して、という依頼で使う。"
 ---
 
 # Codex Skill Sync Global

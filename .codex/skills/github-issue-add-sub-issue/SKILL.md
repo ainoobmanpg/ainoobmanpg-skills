@@ -1,6 +1,6 @@
 ---
 name: github-issue-add-sub-issue
-description: GitHub Issueにsub-issueを追加するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueにsub-issueを追加・紐付けするときに使う。子Issueを追加して、sub-issue化して、親Issue配下に入れて、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Add Sub-Issue

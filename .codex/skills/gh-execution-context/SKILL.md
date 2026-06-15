@@ -1,6 +1,6 @@
 ---
 name: gh-execution-context
-description: Codexサンドボックス内でGitHub CLI `gh` が壊れて見える時に使う。`gh auth status` の失敗、`token is invalid`、GitHub API接続失敗、権限付き実行判断、不要な再ログイン防止、`gh auth refresh` 案内の切り分けに使う。
+description: "Codexサンドボックス内でGitHub CLI `gh` の認証やAPI接続が壊れて見えるときに使う。`gh auth status` 失敗、`token is invalid`、権限付き実行、再ログイン要否、`gh auth refresh` の切り分け依頼で使う。"
 ---
 
 # Gh Execution Context
