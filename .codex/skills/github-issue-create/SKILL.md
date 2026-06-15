@@ -1,6 +1,6 @@
 ---
 name: github-issue-create
-description: GitHub Issueを新規作成するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、タイトルや本文は指定がない限り日本語で作成する。
+description: "GitHub Issueを新規作成するときに使う。Issue作って、起票して、1件ずつIssue化して、タイトルと本文を作って、という依頼で使い、指定がない限り日本語、`gh` を優先する。"
 ---
 
 # GitHub Issue Create

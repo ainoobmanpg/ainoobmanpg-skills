@@ -1,6 +1,6 @@
 ---
 name: github-pr-view
-description: GitHub Pull Requestの現在状態を読み取り専用で確認するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Pull Requestの現在状態を読み取り専用で確認するときに使う。PRを見て、状態確認、diff、本文、コメント、review、merge可否を調べて、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Pull Request View

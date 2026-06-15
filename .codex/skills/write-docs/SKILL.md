@@ -1,6 +1,6 @@
 ---
 name: write-docs
-description: 草案、会話メモ、既存仕様、READMEやdocs配下のMarkdown文書を作成・更新するときに使う。
+description: "Markdown文書、README、docs配下、仕様、作業メモ、会話メモ、草案を作成・更新するときに使う。ドキュメント化して、文章にして、README直して、という依頼で使う。"
 ---
 
 # Write Docs

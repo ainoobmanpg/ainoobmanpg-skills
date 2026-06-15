@@ -1,6 +1,6 @@
 ---
 name: github-repo-protect-branch
-description: GitHub Repositoryのbranch protectionを設定または更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、対象branchと保護内容を日本語で明示確認する。
+description: "GitHub Repositoryのbranch protectionを設定または更新するときに使う。main保護、required review、force push禁止、branch protection確認・変更、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Repo Protect Branch

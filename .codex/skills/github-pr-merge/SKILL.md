@@ -1,6 +1,6 @@
 ---
 name: github-pr-merge
-description: GitHub Pull Requestをmergeするときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、対象PR、merge方式、CI/review状態を日本語で明示確認する。
+description: "GitHub Pull Requestをmergeするときに使う。PRをマージして、squash/rebase/merge commitで取り込んで、CIとreview状態を確認して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Merge

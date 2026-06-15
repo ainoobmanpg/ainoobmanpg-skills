@@ -1,6 +1,6 @@
 ---
 name: github-pr-review
-description: GitHub Pull Requestへreview eventを送信するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、review本文は指定がない限り日本語で書く。
+description: "GitHub Pull Requestへreview eventを送信するときに使う。Approve、Request changes、Comment review、PRレビューを投稿して、という依頼で使い、通常コメントとは切り分け、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Review

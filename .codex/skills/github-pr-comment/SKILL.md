@@ -1,6 +1,6 @@
 ---
 name: github-pr-comment
-description: GitHub Pull Requestに通常コメントを追加するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、コメント本文は指定がない限り日本語で書く。
+description: "GitHub Pull Requestに通常コメントを追加するときに使う。PRへコメントして、進捗や確認結果を投稿して、review eventではないコメントを書いて、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Comment

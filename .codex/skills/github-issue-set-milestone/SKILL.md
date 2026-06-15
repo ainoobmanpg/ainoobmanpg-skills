@@ -1,6 +1,6 @@
 ---
 name: github-issue-set-milestone
-description: GitHub Issueのマイルストーンを設定または更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueのmilestone・マイルストーンを設定、変更、解除するときに使う。マイルストーンを付けて、移して、外して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Set Milestone

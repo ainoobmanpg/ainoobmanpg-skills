@@ -1,6 +1,6 @@
 ---
 name: github-issue-set-parent
-description: GitHub Issueに親Issueを設定するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueにparent issue・親Issueを設定するときに使う。親Issueを付けて、別Issueの子にして、階層化して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Set Parent

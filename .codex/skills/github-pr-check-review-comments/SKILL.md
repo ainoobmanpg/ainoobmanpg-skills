@@ -1,6 +1,6 @@
 ---
 name: github-pr-check-review-comments
-description: GitHub Pull Requestのreviewコメントや既存review状態を確認するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Pull Requestのreviewコメントや既存review状態を読み取り専用で確認するときに使う。レビューコメント見て、指摘確認、未対応コメントを調べて、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Check Review Comments

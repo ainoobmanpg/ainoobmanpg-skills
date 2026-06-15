@@ -1,6 +1,6 @@
 ---
 name: worker-review-before-push
-description: AI Worker由来のコミット済み変更をpushする直前にレビューするときに使う。
+description: "AI Worker由来のコミット済み変更をpushする直前に厳しくレビューするときに使う。push前レビュー、remoteへ出す前の最終確認、No-Go判定の依頼で使う。"
 ---
 
 # Worker Review Before Push

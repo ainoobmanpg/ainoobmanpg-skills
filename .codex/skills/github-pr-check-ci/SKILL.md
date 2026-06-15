@@ -1,6 +1,6 @@
 ---
 name: github-pr-check-ci
-description: GitHub Pull RequestのCI/check statusを読み取り専用で確認するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Pull RequestのCI/check statusを読み取り専用で確認するときに使う。PRのCI見て、checks確認、失敗jobを調べて、という依頼で使い、rerunは別Skillへ切り分け、`gh` を優先する。"
 ---
 
 # GitHub Pull Request Check CI

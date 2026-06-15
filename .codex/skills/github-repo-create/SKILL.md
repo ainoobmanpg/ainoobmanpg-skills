@@ -1,6 +1,6 @@
 ---
 name: github-repo-create
-description: GitHub Repositoryを新規作成するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、repo名、owner、公開範囲、作成結果は指定がない限り日本語で確認する。
+description: "GitHub Repositoryを新規作成するときに使う。repoを作って、private/public repo作成、origin作成、初回push前のrepository作成、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Repo Create

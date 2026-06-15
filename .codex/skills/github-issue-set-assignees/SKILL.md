@@ -1,6 +1,6 @@
 ---
 name: github-issue-set-assignees
-description: GitHub Issueの担当者を設定または更新するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueのassignee・担当者を設定、追加、削除、更新するときに使う。担当者を付けて、assignして、外して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Set Assignees

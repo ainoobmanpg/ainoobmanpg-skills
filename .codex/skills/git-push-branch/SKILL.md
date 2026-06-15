@@ -1,6 +1,6 @@
 ---
 name: git-push-branch
-description: ローカルGit branchをremoteへpushするときに使う。push対象、remote、upstream、force有無を確認し、GitHub PR作成前のbranch公開にも使う。
+description: "ローカルGit branchをremoteへpushするときに使う。pushして、branchを公開して、PR作成前にremoteへ上げて、upstream設定、force有無確認、という依頼で使う。"
 ---
 
 # Git Push Branch

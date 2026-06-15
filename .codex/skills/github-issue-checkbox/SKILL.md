@@ -1,6 +1,6 @@
 ---
 name: github-issue-checkbox
-description: GitHub Issue本文内のチェックボックスをONまたはOFFにするときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、報告は指定がない限り日本語で行う。
+description: "GitHub Issue本文内のチェックボックスをON/OFF更新するときに使う。チェックを付けて、外して、完了にして、タスクを未完了へ戻して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Checkbox

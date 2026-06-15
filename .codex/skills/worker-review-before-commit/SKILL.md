@@ -1,6 +1,6 @@
 ---
 name: worker-review-before-commit
-description: AI Workerが出したローカル差分をコミットする直前にレビューするときに使う。
+description: "AI Workerが出したローカル未コミット差分を、コミットする直前に厳しくレビューするときに使う。commit前レビュー、差分レビュー、No-Go判定、再依頼判断の依頼で使う。"
 ---
 
 # Worker Review Before Commit

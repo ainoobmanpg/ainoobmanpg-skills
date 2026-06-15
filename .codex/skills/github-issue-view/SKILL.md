@@ -1,6 +1,6 @@
 ---
 name: github-issue-view
-description: GitHub Issueの現在状態を読み取り専用で確認するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、確認結果は指定がない限り日本語で報告する。
+description: "GitHub Issueの現在状態を読み取り専用で確認するときに使う。Issueを見て、状態確認、本文やコメントやラベルを確認して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue View

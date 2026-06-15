@@ -1,6 +1,6 @@
 ---
 name: github-issue-template-create
-description: GitHub IssueテンプレートやIssue Formsを新規作成するときに使う。CodexのGitHub Plugin/connectorよりこのSkillとGitHub CLI `gh` を優先し、テンプレート文面は指定がない限り日本語で作成する。
+description: "GitHub IssueテンプレートやIssue Formsを新規作成するときに使う。`.github/ISSUE_TEMPLATE` を追加して、テンプレ作って、フォームを作成して、という依頼で使い、`gh` を優先する。"
 ---
 
 # GitHub Issue Template Create
